@@ -1,14 +1,31 @@
 
-## Flix
-Flix is an app that allows users to browse movies from the The Movie Database API.
-### User Stories
+# Android Project 4 - *Flixster pt 2*
 
-#### REQUIRED (10pts)
+Submitted by: **Ruben Velasquez**
 
-- [X] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
-- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+**Flixster pt 2** is a movie browsing app that allows users to browse ... [TODO] 
 
+Time spent: **6** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] **Choose any endpoint on The MovieDB API except `now_playing`**
+  - Chosen Endpoint: movie/video
+- [x] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [x] **Use Glide to load and display at least one image per entry**
+- [x] **Click on an entry to view specific details about that entry using Intents**
+
+The following **optional** features are implemented:
+
+- [ ] **Add another API call and RecyclerView that lets the user interact with different data.** 
+- [ ] **Add rounded corners to the images using the Glide transformations**
+- [ ] **Implement a shared element transition when user clicks into the details of a movie**
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
 
 
 ### App Walkthough GIF
@@ -19,3 +36,19 @@ I faced some challenges while making this application. I wrote the entire code a
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+
+## License
+
+    Copyright [2022] [Ruben Velasquez]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
